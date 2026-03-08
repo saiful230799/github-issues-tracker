@@ -60,10 +60,9 @@ function displayIssues(issues) {
                 
                 <div class="flex gap-2 mb-2">
                     <span class="px-2 py-1 bg-red-50 text-red-400 text-[10px] rounded border border-red-100 uppercase font-semibold">
-                        <i class="fa-solid fa-tag text-[8px]"></i> BUG
+                        <i class="fa-solid fa-bug"></i> BUG
                     </span>
-                    <span class="px-2 py-1 bg-yellow-50 text-yellow-600 text-[10px] rounded border border-yellow-100 uppercase font-semibold">
-                        @ HELP WANTED
+                    <span class="px-2 py-1 bg-yellow-50 text-yellow-600 text-[10px] rounded border border-yellow-100 uppercase font-semibold"><i class="fa-regular fa-life-ring"></i>HELP WANTED
                     </span>
                 </div>
             </div>
@@ -137,8 +136,8 @@ async function openModal(id) {
             </div>
 
             <div class="flex gap-2 mb-8">
-                <span class="px-2 py-0.5 bg-red-50 text-red-400 text-[11px] rounded border border-red-100 font-bold">🏷️ BUG</span>
-                <span class="px-2 py-0.5 bg-yellow-50 text-yellow-600 text-[11px] rounded border border-yellow-100 font-bold">@ HELP WANTED</span>
+                <span class="px-2 py-0.5 bg-red-50 text-red-400 text-[11px] rounded border border-red-100 font-bold"><i class="fa-solid fa-tag"></i> BUG</span>
+                <span class="px-2 py-0.5 bg-yellow-50 text-yellow-600 text-[11px] rounded border border-yellow-100 font-bold"><i class="fa-regular fa-life-ring"></i> HELP WANTED</span>
             </div>
 
             <div class="mb-10">
